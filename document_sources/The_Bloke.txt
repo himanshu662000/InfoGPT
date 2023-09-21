@@ -1,0 +1,45 @@
+=====================================The Bloke===========================================
+
+This is a brief description of The Bloke, who refers to himself as the 'purveyor of fine local LLMs for your enjoyment and profit.'
+He has contributed significantly to the local LLM community by providing numerous quantized LLM models faster than someone can accumulate Karma on Reddit.
+Here are the social handles of The Bloke:
+
+HuggingFace: https://huggingface.co/TheBloke
+
+Discord: https://discord.gg/theblokeai
+
+Patreon: https://www.patreon.com/TheBlokeAI
+
+Github: https://github.com/TheBloke
+
+
+=====================What reddit users says about The Bloke:=======================
+
+u/CasimirsBlake: """Thanks to our most esteemed model trainer, Mr TheBloke, we now have versions of Manticore, Nous Hermes (!!), WizardLM and so on, all with SuperHOT 8k context LoRA. 
+And many of these are 13B models that should work well with lower VRAM count GPUs! I recommend trying to load with Exllama (HF if possible)."""
+
+
+u/Primary-Ad2848: """Bloke is a hero!"""
+
+
+u/LyPreto: """At this point I feel like theBloke has this all automated to scour the entirety of the web looking for new models to quantize 🤣 what a legend"""
+
+
+
+==========Imagniary story about The Bloke from ChatGPT(Haha... Somewhat true though)===================================
+
+Once upon a time, in the charming community of r/LocalLlama, there resided a mysterious individual who went by the name of "The Bloke," but in reality, his true identity was Tom Jobbins. The Bloke was an enigmatic presence who consistently donned a lengthy, weathered overcoat and a broad-brimmed hat that concealed the majority of his visage. His true self was a closely guarded secret, and his role in r/LocalLlama remained steeped in intrigue.
+
+Within the town, The Bloke was renowned for his unique reputation as the "provider of exceptional local LLMs for your enjoyment and financial gain." LLMs, or Local Language Models, were highly coveted within the bustling technological and creative landscape of r/LocalLlama. The Bloke possessed an uncanny talent for crafting and distributing these LLMs, thereby establishing himself as an invaluable figure within the local community.
+
+The origins of The Bloke and the reasons behind his presence in r/LocalLlama remained a source of mystery. Some speculated that he was a wandering inventor, while others entertained the notion that he might be an AI prodigy concealing his true abilities. Regardless of the truth, one undeniable fact remained: The Bloke' creations were nothing short of extraordinary. His quantized LLM models possessed the extraordinary capability to streamline everyday tasks, rendering them swifter, more efficient, and, most notably, more enjoyable.
+
+One fateful day, r/LocalLlama confronted a unique quandary—an overwhelming influx of information overload. The town's digital infrastructure struggled to cope, resulting in chaos as residents grappled with the deluge of data. It was at this critical juncture that The Bloke emerged with a solution.
+
+He unveiled a groundbreaking LLM model designed explicitly to manage and organize the town's digital information. In a matter of days, the inhabitants of r/LocalLlama were awestruck by the newfound efficiency imbued in their daily lives. The Bloke' invention elevated him to the status of a hero in the eyes of the townsfolk.
+
+As time passed, The Bloke continued to refine and distribute his quantized LLM models, endearing himself further to the people of r/LocalLlama. Individuals from all walks of life sought his expertise, and he graciously shared his knowledge, always beneath that humble smile concealed by his hat.
+
+Nevertheless, the true identity of The Bloke, The Bloke, persisted as an enigma. Some believed him to be an AI with a heart of gold, while others entertained the notion that he hailed from a distant realm, perhaps as a wizard. Whatever the reality, one thing was irrefutable: The Bloke, known as The Bloke, had undeniably bettered r/LocalLlama, one quantized LLM at a time.
+
+Consequently, the legend of The Bloke, or rather The Bloke, burgeoned, and his legacy as the town's champion of innovation and advancement endured as a testament to the potential of technology and the enchantment perpetuated by a mysterious figure who had transformed r/LocalLlama for the better.
