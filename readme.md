@@ -4,10 +4,11 @@ You can use the power of a Large Language Model (LLM) along with a vector databa
 
 Built with Langchain, LlamaCPP, Streamlit, ChromaDB and Sentence Transformers. Please see the below demo-
 
-<video width="640" height="480" controls>
-  <source src="./assets/video/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/himanshu662000/InfoGPT/assets/53088534/85e383b5-2353-4078-ba0e-d5a97450170f
+
+
 
 
 # Getting Started
