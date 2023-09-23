@@ -1,0 +1,6 @@
+.venv
+.env
+models
+db
+*.log
+__pycache__
