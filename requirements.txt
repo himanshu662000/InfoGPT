@@ -13,3 +13,5 @@ streamlit
 chromadb
 unstructured
 llama-cpp-python
+markdown
+jq

@@ -14,6 +14,7 @@ from langchain.document_loaders import (
     UnstructuredHTMLLoader,
     UnstructuredPowerPointLoader,
     UnstructuredMarkdownLoader,
+    JSONLoader
 )
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.vectorstores import Chroma
@@ -48,8 +49,9 @@ def document_loader_with_splitting(doc_dir, file_type_mappings):
     for glob_pattern, loader_cls in file_type_mappings.items():
         try:
             logging.info(f"Processing files with pattern: {glob_pattern}")
+            loader_kwargs = { 'jq_schema':'.', 'text_content':False } if loader_cls == JSONLoader else None
             loader_dir = DirectoryLoader(
-                doc_dir, glob=glob_pattern, loader_cls=loader_cls)
+                doc_dir, glob=glob_pattern, loader_cls=loader_cls, loader_kwargs=loader_kwargs)
             documents = loader_dir.load_and_split()
             text_splitter = RecursiveCharacterTextSplitter(
                 chunk_size=chunk_size, chunk_overlap=chunk_overlap)
@@ -69,14 +71,16 @@ def doc_load_n_split_doctype():
     list: A list of split texts for each document.
     """
     file_type_mappings = {
-        "*.txt": TextLoader,
+        '*.txt': TextLoader,
         '*.pdf': PyPDFLoader,
         '*.csv': CSVLoader,
         '*.docx': Docx2txtLoader,
         '*.xlss': UnstructuredExcelLoader,
-        '*html': UnstructuredHTMLLoader,
+        '*.html': UnstructuredHTMLLoader,
         '*.pptx': UnstructuredPowerPointLoader,
-        '*ppt': UnstructuredPowerPointLoader
+        '*.ppt': UnstructuredPowerPointLoader,
+        '*.md': UnstructuredMarkdownLoader,
+        '*.json': JSONLoader,
     }
     # Below code to define the path of document sources
 
@@ -86,10 +90,12 @@ def doc_load_n_split_doctype():
     for dirpath, dirnames, filenames in os.walk(doc_dir):
         for dirname in dirnames:
             all_doc_dir.append(os.path.join(dirpath, dirname))
+    
     texts = []
 
     for doc_dir in all_doc_dir:
         texts += document_loader_with_splitting(doc_dir, file_type_mappings)
+
     return texts
 
 
